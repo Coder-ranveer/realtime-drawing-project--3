@@ -28,7 +28,7 @@ function modelDone(){
 
 function gotposes(results){
     if(results){
-        console.error(results);
+        console.log(results);
 
         leftWristX = results[0].pose.leftWrist.x;
         rightWristX = results[0].pose.rightWrist.x;
